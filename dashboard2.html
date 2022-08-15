@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pinoy Trade FX || Dashboard</title>
+        <!-- MATERIAL ICONS CDN-->
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+            rel="stylesheet">
+        <!-- GOOGLE FONTS (POPPINS)-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <!-- STYLESHEET -->
+        <link rel="stylesheet" href="assets/css/dashboardStyle.css">
+    </head>
+    <body>
+        <nav>
+            <div class="container">
+                <a href="index.html">
+                    <img src="assets/images/PTFX black.png" class="logo">
+                </a>
+
+                <div class="search-bar">
+                    <span class="material-icons-sharp">search</span>
+                    <input type="search" placeholder="Search">
+                </div>
+                <div class="profile-area">
+                    <div class="theme-btn">
+                        <span class="material-icons-sharp active">light_mode</span>
+                        <span class="material-icons-sharp">dark_mode</span>
+                    </div>
+                    <div class="profile">
+                        <div class="profile-photo">
+                            <img src="assets/images/user.png" alt="">
+                        </div>
+                        <h5>Romeo E. Plaza Jr.</h5>
+                        <span class="material-icons-sharp">expand_more</span>
+                    </div>
+                    <button id="menu-btn">
+                        <span class="material-icons-sharp">menu</span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <!-- END OF NAVBAR-->
+
+        <main>
+            <aside>
+                <button id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </button>
+
+                <div class="sidebar">
+                    <a href="#" class="active">
+                        <span class="material-icons-sharp">dashboard</span>
+                        <h4>Dashboard</h4>
+                    </a>
+                    <a href="#">
+                        <span class="material-icons-sharp">candlestick_chart</span>
+                        <h4>Trade Now!</h4>
+                    </a>
+                    <a href="#">
+                        <span class="material-icons-sharp">account_balance_wallet</span>
+                        <h4>Wallet</h4>
+                    </a>
+                    <a href="#">
+                        <span class="material-icons-sharp">store</span>
+                        <h4>Markets</h4>
+                    </a>
+                    <a href="https://www.metatrader4.com/en" target="_blank">
+                        <span class="material-icons-sharp">phonelink</span>
+                        <h4>Platforms</h4>
+                    </a>
+                    <a href="#">
+                        <span class="material-icons-sharp">payment</span>
+                        <h4>Transactions</h4>
+                    </a>
+                    <a href="#">
+                        <span class="material-icons-sharp">analytics</span>
+                        <h4>Analytics</h4>
+                    </a>
+                    <a href="socialPageNew.html" target="_blank">
+                        <span class="material-icons-sharp">forum</span>
+                        <h4>Community</h4>
+                    </a>
+                    <a href="#">
+                        <span class="material-icons-sharp">school</span>
+                        <h4>Academy</h4>
+                    </a>
+                    <a href="#">
+                        <span class="material-icons-sharp">discount</span>
+                        <h4>Promotions</h4>
+                    </a>
+                    <a href="#">
+                        <span class="material-icons-sharp">manage_accounts</span>
+                        <h4>EAMP</h4>
+                    </a>
+                    <a href="#">
+                        <span class="material-icons-sharp">help_center</span>
+                        <h4>Help Center</h4>
+                    </a>
+                    <a href="#">
+                        <span class="material-icons-sharp">settings</span>
+                        <h4>Settings</h4>
+                    </a>
+                </div>
+                <!-- END OF SIDEBAR -->
+                
+                <div class="updates" style="margin-top: 20px;">
+                    <span class="material-icons-sharp">update</span>
+                    <h4>Updates Available</h4>
+                    <p>Security Updates</p>
+                    <p>General Updates</p>
+                    <a href="#">Update Now</a>
+                </div>
+            </aside>
+            <!-------------------- END OF ASIDE ----------------------->
+
+            <!-- END OF MIDDLE -->
+
+            <!-- END OF RIGHT -->
+        </main>
+        <!--================== END OF ASIDE =====================-->
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js"
+            integrity="sha512-GMGzUEevhWh8Tc/njS0bDpwgxdCJLQBWG3Z2Ct+JGOpVnEmjvNx6ts4v6A2XJf1HOrtOsfhv3hBKpK9kE5z8AQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="assets/js/dashboardScript.js"></script>
+    </body>
+</html>
